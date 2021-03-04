@@ -1,0 +1,233 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    background-color:#fff1e6;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  header {  
+    background-color: #eddcd2;  
+    height: 10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  h1{
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+  }
+  
+  
+  h2 {
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 10px;
+    margin-bottom: 0;
+  }
+  h4{
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    display: flex;
+    
+    left: 20px;
+    margin-bottom: 0;  
+  }
+  
+  p{
+    font-family: p22-underground, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin-right: 7%;
+  }
+  
+  footer{
+    font-family: p22-underground, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 100%;
+    background-color: #eddcd2;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0px;
+  }
+  
+  .erikoislinkki:link, .erikoislinkki:visited {
+    background-color: #fff1e6;
+    color: #7a5c4b;
+    border: 2xp white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  .erikoislinkki:hover, .erikoislinkki:active{
+    background-color:  #a17b65;
+    color: #fff1e6;
+  }
+  .otsikkolinkki:link, .otsikkolinkki:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+  }
+  .paaotsikko:link, .paaotsikko:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+  }
+  /* Dropdown Button */
+  .dropbtn {
+    font-family: p22-underground, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color:rgba(255, 255, 255, 0);
+    color: black;
+    padding: 16px;
+    right: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    font-family: p22-underground, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    font-family: p22-underground, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: none;
+    position: absolute;
+    background-color: #fff1e6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-family: p22-underground, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:  #a17b65;
+    color: #fff1e6;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  .jalkateksti {
+    position: relative;
+    left: 20px;
+  }
+  section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .projektipohja {
+    background-color:#eddcd2;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    align-content: center;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+    margin-bottom: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: scroll;
+  }
+  .projektiotsikkoloota{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 0px;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color:#ddbea9;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+  }
+  
+  .klikkilinkki{
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  .kuva {
+      width: 200px;
+      height: 230px;
+      border-radius: 50%;
+      display: flex;
+      padding-left: 15px;
+      margin-right: 0%;
+  }
+  .kuvaloota {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin: 0;
+      
+  }
+  .tekstiloota{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+  }
+.aside {
+    width: 50%;
+}
